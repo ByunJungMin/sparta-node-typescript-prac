@@ -8,6 +8,7 @@
     "target": "ES2021",
     "outDir": "dist", // 컴파일 후 생성되는 js 파일이 생성될 폴더명
     "strictNullChecks": true,
-    "noEmitOnError": true // transcompile 할 때 에러가 났을 경우 컴파일 되지 않게 해준다.
+    "noEmitOnError": true, // transcompile 할 때 에러가 났을 경우 컴파일 되지 않게 해준다.
+    "noImplicitAny": true // 암시적 any를 허용하지 않는다.
   }
 }
